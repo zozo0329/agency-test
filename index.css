@@ -83,6 +83,9 @@ body {
     transition: 0.15s;
     color: white;
 }
+#copy{
+    font-size: smaller;
+}
 
 /*
         MQ FOR RESPONSIVE DESIGN
