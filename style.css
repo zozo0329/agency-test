@@ -1,0 +1,109 @@
+body {
+    margin: 0px;
+    font-family: Kanit, sans-serif;
+}
+.hero {
+    margin-bottom: 400px;
+}
+/*
+    Title
+*/
+.title {
+    font-size: x-large;
+    padding: 20px;
+}
+.title h1{
+    color: #ff9100;
+}
+.creative {
+    color: #b51bf1;
+}
+/*
+    HEADER SECTION
+*/
+.header-section {
+    padding: 10px;
+    background-color: #b51bf1;
+    color: white;
+}
+.header-section h1:hover {
+    color: #fdad00;
+}
+/*
+        MAIN SECTION
+*/
+.main-section {
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+}
+.main-section h1 {
+    color: #ff9100;
+}
+.main-section p {
+    font-size: 20px;
+}
+.main-section img {
+    height: 200px;
+    width: 300px;
+    float: left;
+    margin: 20px;
+}
+
+.blank {
+    text-align: center;
+    color: white;
+}
+/*
+    FOOTER SECTION
+*/
+.footer-section {
+    background-color: #b51bf1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section li {
+    margin: 20px;
+    font-size: 19px;
+}
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+.footer-section a:hover {
+    color: #ff9901;
+    transition: 0.15s;
+}
+.footer-section a:active {
+    transition: 0.15s;
+    color: white;
+}
+
+/*
+        MQ FOR RESPONSIVE DESIGN
+*/
+@media (max-width: 1250px) {
+    .title {
+        text-align: center;
+        padding: 20px;
+    }
+    .header-section {
+        padding: 10px;
+        background-color: #b51bf1;
+        color: white;
+        text-align: center;
+    }
+    .main-section {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .main-section img {
+        float: none;
+    }
+}
