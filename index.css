@@ -33,7 +33,7 @@ body {
     NAVIGATION BAR SECTION
 */
 .nav-bar {
-    border-bottom: 5px solid #b51bf1;
+    border-bottom: 4px solid #b51bf1;
 }
 .nav-bar li {
     padding: 0px;
@@ -46,6 +46,14 @@ body {
     color: #ff9100;
     font-weight: bold;
     font-size: larger;
+}
+.nav-bar a:hover {
+    color: #b51bf1;
+    transition: 0.15s;
+}
+.nav-bar a:active {
+    opacity: 0.6;
+    transition: 0.15s;
 }
 /*
         MAIN SECTION

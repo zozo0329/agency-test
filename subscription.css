@@ -1,0 +1,24 @@
+body {
+    margin: 0px;
+    font-family: Kanit, sans-serif;
+    background-color: #2e2e2e;
+}
+/*
+    HEADER SECTION
+*/
+.header-section {
+    padding: 10px;
+    background-color: #b51bf1;
+    color: white;
+}
+.header-section h1:hover {
+    color: #fdad00;
+}
+/*
+    MAIN SECTION
+*/
+.subscription-text h1 {
+    color: #fdad00;
+    margin-left: 20px;
+    font-size: 50px;
+}
