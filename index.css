@@ -30,6 +30,24 @@ body {
     color: #fdad00;
 }
 /*
+    NAVIGATION BAR SECTION
+*/
+.nav-bar {
+    border-bottom: 5px solid #b51bf1;
+}
+.nav-bar li {
+    padding: 0px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #ff9100;
+    font-weight: bold;
+    font-size: larger;
+}
+/*
         MAIN SECTION
 */
 .main-section {
@@ -50,10 +68,7 @@ body {
     margin: 20px;
 }
 
-.blank {
-    text-align: center;
-    color: white;
-}
+
 /*
     FOOTER SECTION
 */
@@ -112,5 +127,9 @@ body {
     }
     .main-section img {
         float: none;
+        width: 100%;
+    }
+    .nav-bar a{
+        font-size: 17px;
     }
 }
