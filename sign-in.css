@@ -17,6 +17,10 @@ body {
 .header-section h1:hover {
     color: #fdad00;
 }
+.header-section a {
+    text-decoration: none;
+    color: white;
+}
 
 /*
     NAVIGATION BAR SECTION
