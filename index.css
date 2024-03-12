@@ -37,6 +37,19 @@ body {
     gap: 20px;
     border-bottom: 3px solid #b51bf1;
 }
+
+.nav-section a{
+    text-decoration: none;
+    color: #b51bf1;
+    transition: 0.15s;
+}
+.nav-section a:hover {
+    color: #fdad00;
+}
+.nav-section a:active {
+    opacity: 0.6;
+    transition: 0.15s;
+}
 .sign-in,
 .sign-up {
     font-weight: bold;
@@ -67,6 +80,7 @@ body {
     opacity: 0.6;
     transition: 0.15s;
 }
+
 
 
 /*
@@ -102,6 +116,7 @@ body {
 }
 .footer-section ul {
     list-style: none;
+    padding: 0px;
 }
 .footer-section li {
     margin: 20px;

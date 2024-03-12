@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    font-family: Kanit, sans-serif;
+}
+
+/*
+    HEADER SECTION
+*/
+.header-section {
+    padding: 10px;
+    background-color: #b51bf1;
+    color: white;
+}
+
+.header-section a {
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+.header-section a:hover {
+    color: #fdad00;
+}
+.header-section a:active {
+    opacity: 0.6;
+    transition: 0.15s;
+}
+
+/*
+        Main Section  
+*/
+
+.main-section {
+    display: flex;
+    gap: 10px;
+    padding: 50px;
+    justify-content: space-around;
+}
+.description {
+    color: #fdad00;
+    font-size: 30px;
+}
+.connect {
+    color: #b51bf1;
+}
+/*
+    Sign up Section
+*/
+.signup-section {
+    background-color: #b51bf1;
+    padding: 50px;
+    border-radius: 30px;
+}
+.signup-section h1 {
+    color: white;
+    text-align: center;
+}
+
+/*
+        MQ for responsive design
+*/
+
+@media (max-width: 1250px) {
+    .header-section {
+        text-align: center;
+    }
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .description {
+        text-align: center;
+    }
+}

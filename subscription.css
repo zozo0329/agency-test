@@ -91,6 +91,7 @@ body {
 }
 .footer-section ul {
     list-style: none;
+    padding: 0px;
 }
 .footer-section li {
     margin: 20px;
