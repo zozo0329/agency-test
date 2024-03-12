@@ -3,6 +3,9 @@ body {
     font-family: Kanit, sans-serif;
 }
 
+.hero {
+    margin-bottom: 390px;
+}
 /*
     HEADER SECTION
 */
@@ -13,4 +16,236 @@ body {
 }
 .header-section h1:hover {
     color: #fdad00;
+}
+
+/*
+    NAVIGATION BAR SECTION
+*/
+.nav-bar {
+    border-bottom: 4px solid #b51bf1;
+}
+.nav-bar li {
+    padding: 0px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 50px;
+}
+.nav-bar a {
+    text-decoration: none;
+    color: #ff9100;
+    font-weight: bold;
+    font-size: larger;
+}
+.nav-bar a:hover {
+    color: #b51bf1;
+    transition: 0.15s;
+}
+.nav-bar a:active {
+    opacity: 0.6;
+    transition: 0.15s;
+}
+
+/*
+    Title
+*/
+.title {
+    font-size: 35px;
+    padding: 20px;
+}
+.title h1{
+    color: #ff9100;
+}
+.creative {
+    color: #b51bf1;
+}
+
+/*
+    Main Section
+*/
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 50px;
+}
+/*
+    LOGIN SECTION
+*/
+.login-section {
+    background-color: #b51bf1;
+    padding: 100px;
+    border-radius: 30px;
+    text-align: center;
+}
+.signin {
+    color: white;
+}
+#email {
+    background-color: #e0e0e0;
+    color: black;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 40px;
+}
+#password {
+    background-color: #e0e0e0;
+    color: black;
+    font-weight: bold;
+    padding: 25px;
+    border-radius: 40px;
+}
+#login {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 25px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    width: 140px;
+}
+.or {
+    font-weight: 900;
+    font-size: 19px;
+}
+#fb-icon,
+#g-icon,
+#discord-icon {
+    margin: 10px;
+    transition: 0.15s;
+}
+
+#fb-icon:hover {
+    opacity: 0.6;
+}
+#g-icon:hover {
+    opacity: 0.6;
+}
+#discord-icon:hover {
+    opacity: 0.6;
+}
+
+
+/*
+    FOOTER SECTION
+*/
+.footer-section {
+    background-color: #b51bf1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer-section ul {
+    list-style: none;
+}
+.footer-section li {
+    margin: 20px;
+    font-size: 19px;
+}
+.footer-section a {
+    text-decoration: none;
+    color: white;
+    transition: 0.15s;
+}
+.footer-section a:hover {
+    color: #ff9901;
+    transition: 0.15s;
+}
+.footer-section a:active {
+    transition: 0.15s;
+    color: white;
+}
+#copy{
+    font-size: smaller;
+}
+/*
+    MQ FOR RESPONSIVE DESIGN 
+*/
+
+@media (max-width: 1250px) {
+    
+.header-section {
+    text-align: center;
+}
+.nav-section {
+    text-align: center;
+}
+.title {
+    text-align: center;
+}
+
+    /*
+        MAIN
+    */
+
+.main-section {
+    text-align: center;
+}
+
+    /*
+        FOOTER
+    */
+.footer-section {
+    text-align: center;
+}
+}
+
+@media (max-width: 1500px) {
+    .main-section {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .title {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1650px) {
+    .main-section {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .title {
+        font-size: 50px;
+    }
+}
+@media (max-width: 900px) {
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title {
+        font-size: 30px;
+    }
+    .login-section {
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .main-section {
+        margin: 0px;
+        padding: 0px;
+    }
+    .login-section{
+        padding: 10px;
+        height: 500px;
+    }
+    .footer-section {
+        text-align: center;
+    }
+
+    /*
+        NAV SECTION
+    */
+    .nav-section {
+        display: inline-flex;
+        justify-content: space-around;
+    }
+    .nav-section *{
+        list-style-type: none;
+        padding: 0px;
+    }
+    .subscription {
+        margin-left: 8px;
+    }
 }
