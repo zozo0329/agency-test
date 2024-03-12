@@ -32,29 +32,43 @@ body {
 /*
     NAVIGATION BAR SECTION
 */
-.nav-bar {
-    border-bottom: 4px solid #b51bf1;
+.nav-section {
+    display: flex;
+    gap: 20px;
+    border-bottom: 3px solid #b51bf1;
 }
-.nav-bar li {
-    padding: 0px;
-    list-style-type: none;
-    display: inline;
-    margin-right: 50px;
-}
-.nav-bar a {
-    text-decoration: none;
-    color: #ff9100;
+.sign-in,
+.sign-up {
     font-weight: bold;
-    font-size: larger;
+    font-size: 18px;
+    color: #b51bf1;
 }
-.nav-bar a:hover {
+#cart {
+    margin: 10px;
+    transition: 0.15s;
+}
+#cart:hover {
+    opacity: 0.6;
+}
+#cart:active {
+    opacity: 0.5;
+    transition: 0.15s; 
+}
+
+.sign-in a {
+    text-decoration: none;
     color: #b51bf1;
     transition: 0.15s;
 }
-.nav-bar a:active {
+.sign-in a:hover {
+    color: #ff9100;
+}
+.sign-in a:active {
     opacity: 0.6;
     transition: 0.15s;
 }
+
+
 /*
         MAIN SECTION
 */
@@ -126,6 +140,9 @@ body {
         padding: 10px;
         background-color: #b51bf1;
         color: white;
+        text-align: center;
+    }
+    .nav-section {
         text-align: center;
     }
     .main-section {
