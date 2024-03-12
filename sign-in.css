@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    font-family: Kanit, sans-serif;
+}
+
+/*
+    HEADER SECTION
+*/
+.header-section {
+    padding: 10px;
+    background-color: #b51bf1;
+    color: white;
+}
+.header-section h1:hover {
+    color: #fdad00;
+}
