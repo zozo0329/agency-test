@@ -103,6 +103,16 @@ body {
     border-radius: 40px;
     cursor: pointer;
     width: 140px;
+    transition: 0.15s;
+}
+#login:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+#login:active {
+    opacity: 0.6;
+    transition: 0.15s;
 }
 .or {
     font-weight: 900;
