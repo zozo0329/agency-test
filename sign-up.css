@@ -47,13 +47,29 @@ body {
 */
 .signup-section {
     background-color: #b51bf1;
-    padding: 50px;
+    padding: 100px;
     border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.signup-section * {
+    flex-basis: 38px;
+    border-radius: 30px;
+    padding: 10px;
+    font-weight: bold;
 }
 .signup-section h1 {
     color: white;
     text-align: center;
 }
+
+#submit {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+
 
 /*
         MQ for responsive design
