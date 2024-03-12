@@ -135,3 +135,40 @@ body {
         margin-top: 0px;
     }
 }
+@media (max-width: 1500px) {
+    .header-section {
+        text-align: center;
+    }
+    .subscription-text {
+        text-align: center;
+    }
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+    }
+    .basic-promo button {
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 1550px) {
+    .header-section {
+        text-align: center;
+    }
+    .subscription-text {
+        text-align: center;
+    }
+    .main-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 50px;
+        padding: 50px;
+    }
+    .basic-promo button {
+        margin-top: 0px;
+    }
+}
